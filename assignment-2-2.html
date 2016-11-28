@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Forms</title>
+</head>
+
+<body>
+<form action="\newformpage" method=send>
+<fieldset>
+<legend>Your Details:</legend>
+<label>Name: <input type="text" name="name" size="30" maxlength="100"></label><br />
+<label>Email: <input type="email" name="email" size="30" maxlength="100"></label><br />
+</fieldset><br />
+<br/>
+<fieldset>
+<legend>Your Review:</legend></br>
+<p>How did you hear about us?
+    <select>
+        <option value="g">Google</option>
+        <option value="e">Email</option>
+        <option value="f">Friend</option>
+        <option value="tv">TV/Newspaper</option>
+    </select></p>
+
+<p>Would you visit again ?</br> <input type="radio" > <label for="radio">Yes<input type="radio"> <label for="radio">No<input type="radio"> <label for="radio">Maybe</label><br /></p>
+<p>Comments:<br /> <textarea> </textarea></br></p>
+<p><input type="checkbox" value="1" id="signmeup" checked /><label for="signmeup">Sign me up for email updates </label></p>
+
+<p><input type="submit" value="Submit review"</p>
+</fieldset><br />
+
+</form>
+</body>
+
+</html>
